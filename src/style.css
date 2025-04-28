@@ -1,0 +1,83 @@
+body
+{
+margin: 0;
+padding: 0;
+
+}
+.loader-app
+{
+width: 50%;
+height: auto;
+margin: auto;     
+}
+.loader-app img 
+{
+width: 50%;
+height: auto;
+margin: auto;
+margin-top: 20%;
+    
+}
+#logo{
+    height: 80px;
+    width: 200px;
+}
+.footer p{
+    padding: 5px 0px;
+    font-size: 20px;
+}
+#Logo-footer{
+    height: 140px;
+    width: 260px;
+    
+}
+.cards{
+    width: 90%;
+}
+.offer .absolute{
+     bottom: 50px; 
+     left: 50px;
+}
+#about-us{
+    background-color: #FCF8ED;
+}
+.products
+{
+width: 100% !important;
+height: auto !important;
+margin: auto;
+margin-top: 2%;
+display: flex !important;
+flex-direction: row;
+
+}
+.category-sidebar
+{
+width: 20%;
+height: auto;
+background-color: lightgray;
+}
+.category-sidebar ul li 
+{
+padding: 10px 20px;
+font-size: 18px;
+list-style-type: none;
+text-decoration: none;    
+}
+.category-sidebar a 
+{
+color: black;    
+}
+.prod-app
+{
+width: 20%;
+height: auto;
+margin: 0 !important;
+padding: 15px !important;
+}  
+.prod-app img 
+{
+width: 100% !important;
+height: auto;  
+}
+

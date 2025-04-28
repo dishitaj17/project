@@ -1,0 +1,188 @@
+{
+  "Contact": [
+    {
+      "id": "857e",
+      "name": "Dishita joshi",
+      "email": "d17@gmail.com",
+      "phone": "9408767374",
+      "subject": "hi",
+      "comment": "good service"
+    },
+    {
+      "id": "b1cd",
+      "name": "Shivansh",
+      "email": "shiv@gmail.com",
+      "phone": "345789087",
+      "subject": "hello",
+      "comment": "very Tasty"
+    },
+    {
+      "id": "861d",
+      "name": "Harsh",
+      "email": "h@gmail.com",
+      "phone": "9908767985",
+      "subject": "hii",
+      "comment": "Healthy"
+    }
+  ],
+  "Category": [
+    {
+      "catname": "Kunafa Chocolate",
+      "catdesc": "made of pistachio",
+      "id": "5fae"
+    },
+    {
+      "catname": "Dark Chocolate",
+      "catdesc": "Real dark flavour",
+      "id": "9b09"
+    },
+    {
+      "id": "de45",
+      "catname": "Velentines Chocolate",
+      "catdesc": "Love"
+    },
+    {
+      "catname": "Flavoured Chocolate",
+      "catdesc": "For special occasion",
+      "id": "1afd"
+    },
+    {
+      "id": "2486",
+      "catname": "Trufles Chocolate",
+      "catdesc": "special"
+    }
+  ],
+  "add-item": [
+    {
+      "id": "8953",
+      "itemphoto": "https://cdn.cdnparenting.com/articles/2019/03/22143442/594489065-H-1024x700.webp",
+      "itemname": "milk dark ",
+      "itemprice": "550"
+    },
+    {
+      "id": "a690",
+      "itemphoto": "https://media.assettype.com/delhiwants%2F2025-01-02%2Frp3o180z%2FKunafa-desserts-in-Delhi.PNG",
+      "itemname": "pistachio choco",
+      "itemprice": "1050"
+    },
+    {
+      "itemphoto": "https://static.vecteezy.com/system/resources/previews/047/665/278/non_2x/valentine-s-day-chocolates-in-heart-shape-png.png",
+      "itemname": "Heart Bites",
+      "itemprice": "940",
+      "id": "a37c"
+    },
+    {
+      "id": "d5f5",
+      "itemphoto": "https://carveyourcraving.com/wp-content/uploads/2022/10/Rose-almond-truffles.jpg",
+      "itemname": "Badam Gulkand Trufle",
+      "itemprice": "1060"
+    },
+    {
+      "id": "08e1",
+      "itemphoto": "https://choconnuts.in/wp-content/uploads/2021/02/assorted-heart-chocolates-box.jpg",
+      "itemname": "5 Flavour Chocolates",
+      "itemprice": "1030"
+    }
+  ],
+  "add-product": [
+    {
+      "id": "f3db"
+    }
+  ],
+  "cart": [
+    {
+      "id": "f3c9"
+    },
+    {
+      "id": "f0f7",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "ac1a",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "8cdc",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "6657",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "b932",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "6b89",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "2f99",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "6548",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "496f",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "e01d",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "3489",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "c09c",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    },
+    {
+      "id": "4d80",
+      "itemname": "",
+      "itemprice": "",
+      "qty": "",
+      "descriptions": ""
+    }
+  ]
+}
