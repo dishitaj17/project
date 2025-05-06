@@ -24,12 +24,13 @@ const descriptions=useRef("");
 // fetch dynamic products details 
 useEffect(()=>{ 
 axios.get(`http://localhost:3000/add-product/${id}`).then((response)=>{
+  // setProdData(response.data);
 
   images.current.src=response.data.itemphoto;
-   itemphoto.current.value=response.data.itemphoto;
+  itemphoto.current.value=response.data.itemphoto;
    itemname.current.value=response.data.itemname;
    itemprice.current.value=response.data.itemprice;
-   qty.current.value=response.data.qty;
+  qty.current.value=response.data.qty;
    descriptions.current.value=response.data.descriptions;
 });
 
@@ -45,7 +46,7 @@ const addCartFormData=(e)=>
            itemphoto:itemphoto.current.value,
            itemname:itemname.current.value,
            itemprice:itemprice.current.value,
-           qty:qty.current.value,
+          qty:qty.current.value,
            descriptions:descriptions.current.value
        }
        axios.post(`http://localhost:3000/cart`,addcart).then(response => response.json())
@@ -75,9 +76,10 @@ const addCartFormData=(e)=>
 <p className='h3 ms-3'><input type='text'  ref={itemname}  /></p>
 
 <p className='h6 ms-3'>Rs.<input type='text' ref={itemprice}  /></p>
+
 <label className='ms-3'>select qty</label>
 <br />
-<p className='ms-3'><input type='number' min="1" max="10" readOnly ref={qty}  className='form-control w-50 border border-1'  /></p>
+<p className='ms-3'><input type='number' min="1" max="10"  ref={qty}  className='form-control w-50 border border-1'  /></p> 
 
 
 <p className='ms-3 h3 bvg-dark text-dark'>Products Descriptions :</p>

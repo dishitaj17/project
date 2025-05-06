@@ -21,16 +21,25 @@ import Products from './component/Products'
 import ProductDetails from './component/ProductDetails'
 import Cart from './component/Cart'
 import Checkout from './component/Checkout'
-import Register from './component/Register'
+import Signup from './component/SignUp'
 import Login from './component/Login'
+
+import ProtectedRoute from "./component/ProtectedRoute";
+import { UserAuthContextProvider } from "./Context/UserAuthContext";
+import Home from './component/Home'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <UserAuthContextProvider>
       <Router>
         <Routes>
-        <Route path='/' element={<Layout/>}/>
-        <Route path='/register' element={<Register/>}/>
+        <Route path='/home' element={<ProtectedRoute><Home /></ProtectedRoute>}/>
+        <Route path='/' element={<Layout />}/>
+
+        
+
+        <Route path='/signup' element={<Signup/>}/>
         <Route path='/signin' element={<Login/>}/>
 
         <Route path='/about-us' element={<AboutUs/>}/>
@@ -54,5 +63,6 @@ createRoot(document.getElementById('root')).render(
 
         </Routes>
       </Router>
+      </UserAuthContextProvider>
   </StrictMode>,
 )

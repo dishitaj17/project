@@ -10,7 +10,7 @@ export default function Header() {
       <img src={logo} alt='logo' id='logo' className='img-fluid' />
      </div>
      <div className='choco-navbar'>
-      <ul className='navbar navbar-expand-md flex space-x-8 ms-20 mt-4 text-2xl font-semibold'>
+      <ul className='navbar navbar-expand-md flex space-x-8 xl:ms-20 ms-2 mt-4 xl:text-2xl text-sm font-semibold'>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about-us">About us</Link></li>
         <li><Link to="/our-products">Our Products</Link></li>
